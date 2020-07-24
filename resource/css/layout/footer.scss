@@ -1,0 +1,68 @@
+.footer {
+  &__logo {
+    @include screen("mobile") {
+      text-align: center;
+    }
+  }
+
+  &__item {
+    padding: 3rem 1.5rem;
+  }
+
+  &__label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $label-color;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+
+    @include screen("mobile") {
+      text-align: center;
+    }
+  }
+
+  &__contact {
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: $text-color;
+
+      @include screen("mobile") {
+        text-align: center;
+      }
+    }
+  }
+
+  &__links {
+    &-list {
+      font-size: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      color: $text-color;
+      font-weight: 400;
+
+      @include screen("mobile") {
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      li {
+        margin-bottom: 1.5rem;
+        width: 50%;
+      }
+    }
+  }
+
+  &__form {
+    input {
+      margin-bottom: 1.5rem;
+    }
+
+    @include screen("mobile") {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,2860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POFO demo</title>
+    <script src="https://kit.fontawesome.com/096f1459b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./vendor/css/flickity.min.css" />
+    <link rel="stylesheet" href="./resource/css/style.css" />
+
+    <link rel="icon" href="./resource/lib/logo/title.png" type="image/icon type" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="d-flex-bw align-center">
+          <div class="nav__logo">
+            <a href="index.html">
+              <img class="full-percent" src="./resource/lib/logo/logo-white.png" alt="logo" />
+            </a>
+          </div>
+
+          <div class="nav__cta">
+            <div class="d-flex align-center">
+              <ul class="nav__links nav__links-lg">
+                <li class="nav__links-link nav__link-hover">
+                  <a href="">home</a>
+
+                  <span class="drop-down-button">
+                    <i class="fas fa-angle-down"></i>
+                  </span>
+
+                  <div class="nav__sub-menu">
+                    <div class="d-flex-bw drop-down-padding">
+                      <div class="col-12 col-lg-3">
+                        <h3 class="nav__sub-menu-title">
+                          classic homepages
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic corporate</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic digital agency</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic innovation agency</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic web agency</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic one page</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic start up</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">classic interactive agency</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          creative homepages
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative studio</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative business</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative simple portfolio</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative branding agency</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""
+                              >creative minimalist portfolio <span class="nav__sub-menu-list-link-new">new </span></a
+                            >
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative small business</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative designer</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">creative agency</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          portfolio homepages
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""> portfolio minimal</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio multiple carousel</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio centered slides</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio personal</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio full screen - vertical</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio photographer</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio parallax</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          blog homepages
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog grid</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog masonry</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog clean</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog personal</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav__links-link nav__link-hover2 nav__link-hover">
+                  <a href="#">pages</a>
+                  <span class="drop-down-button">
+                    <i class="fas fa-angle-down"></i>
+                  </span>
+
+                  <div class="nav__sub-menu width-100">
+                    <ul class="nav__sub-menu-list">
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform"> <span>about</span> <i class="fas fa-angle-right"></i> </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">about us simple</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">about us classic</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">about us modern</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">about me</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>services</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">services simple</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">services classic</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">services modern</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>contact</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">contact simple</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">contact classic</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">contact classic - style 02</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">contact modern</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform"> <span>team</span> <i class="fas fa-angle-right"></i> </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">team simple</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">team classic</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>additional pages</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">our clients</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">error 404</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">coming soon</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">coming soon - style 02</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">faq</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a href="">maintenance</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">search result</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">coming soon - style 02</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav__links-link nav__link-hover">
+                  <a href="#">portfolio</a>
+                  <span class="drop-down-button">
+                    <i class="fas fa-angle-down"></i>
+                  </span>
+
+                  <div class="nav__sub-menu">
+                    <div class="d-flex-bw drop-down-padding">
+                      <div class="col-12 col-lg-3">
+                        <h3 class="nav__sub-menu-title">
+                          grid - full width layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid overlay</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid with icon</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid transform</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid zooming</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          masonry - full width layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio masonry overlay</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio masonry with icon</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          metro - full width layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro overlay</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro with icon</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro transform</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro zooming</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          other - full width layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio image gallery</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio justified</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio carousel</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio parallax</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          grid - boxed layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid overlay</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid with icon</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid transform</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio grid zooming</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          masonry - boxed layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio masonry overlay</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio masonry with icon</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          metro - boxed layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro overlay</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro with icon</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro transform</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio metro zooming</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          other - boxed layouts
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio image gallery</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio justified</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio carousel</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio parallax</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          single project page
+                        </h3>
+
+                        <ul class="nav__sub-menu-list margin-bot">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 01</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 02</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 03</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 04</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 05</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 06</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 07</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single project page 08</a>
+                          </li>
+                        </ul>
+
+                        <h3 class="nav__sub-menu-title">
+                          portfolio columns
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio 2 columns</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio 3 columns</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio 4 columns</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">portfolio 5 columns</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link margin-bot hide-mobile">
+                            <a class="transform" href="">
+                              <img src="./resource/lib/menu-banner-01.png" alt="" class="full-percent" />
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link hide-mobile">
+                            <a class="transform" href="">
+                              <img src="./resource/lib/menu-banner-02.png" alt="" class="full-percent"
+                            /></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav__links-link nav__link-hover nav__link-hover2">
+                  <a href="#">blog</a>
+                  <span class="drop-down-button">
+                    <i class="fas fa-angle-down"></i>
+                  </span>
+
+                  <div class="nav__sub-menu width-100">
+                    <ul class="nav__sub-menu-list">
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog standard</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog standard - full width</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog standard with left sidebar</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog standard with right sidebar</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog classic</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog classic</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog classic - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog list</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog list</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog list - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog grid</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog grid</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog grid - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog masonry</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog masonry</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog masonry - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog masonry</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog masonry</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog masonry - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog simple</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog simple </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog simple - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog clean</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog clean</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog clean - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog images</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog images</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog images - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>blog only text</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog only text</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog only text - full width</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>post layout</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog post layout 01</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog post layout 02</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog post layout 03</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog post layout 04</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blog post layout 05</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="nav__sub-menu-list-link nav__sub-menu-list-block">
+                        <span class="d-flex-bw transform">
+                          <span>post types</span> <i class="fas fa-angle-right"></i>
+                        </span>
+
+                        <ul class="nav__sub-menu-list-link-menu">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">standard post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">gallery post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">slider post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">HTML5 video post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">youtube video post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">vimeo video post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">audio post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">blockquote post</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">full width post</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav__links-link nav__link-hover">
+                  <a href="#">elements</a>
+                  <span class="drop-down-button">
+                    <i class="fas fa-angle-down"></i>
+                  </span>
+
+                  <div class="nav__sub-menu">
+                    <div class="d-flex-bw drop-down-padding">
+                      <div class="col-12 col-lg-3">
+                        <h3 class="nav__sub-menu-title">
+                          general elements
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-microphone" aria-hidden="true"></i>
+
+                              &nbsp; Accordions
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-toggle-on" aria-hidden="true"></i>
+
+                              &nbsp; buttons
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; team
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; team carousel
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; team clients
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; clients
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; clients carousel
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; subscribe
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; call to action
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; tab
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; google map
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; text slider
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; contact form
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; image gallery
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          info graphics / icon
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-microphone" aria-hidden="true"></i>
+
+                              &nbsp; process bar
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-toggle-on" aria-hidden="true"></i>
+
+                              &nbsp; icons with text
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; overline icon box
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; custom icon with text
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; counters
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; countdown
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; pie charts
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; text box
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; fancy text box
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          interactive elements
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-microphone" aria-hidden="true"></i>
+
+                              &nbsp; testimonials
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-toggle-on" aria-hidden="true"></i>
+
+                              &nbsp; testimonials carousel
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; video
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; interactive banners
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; services
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; portfolio slider
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; info banner
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; rotate box
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; process step
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; blog posts
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; instagram
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; parallax scrolling
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          text & containers
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-microphone" aria-hidden="true"></i>
+
+                              &nbsp; heading
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-toggle-on" aria-hidden="true"></i>
+
+                              &nbsp; dropcaps
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; columns
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; blockquote
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; highlights
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; message box
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; social icon
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; lists
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; separators
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; pricing table
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; google map
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; text slider
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; contact form
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              <i class="fa fa-user" aria-hidden="true"></i>
+
+                              &nbsp; image gallery
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="nav__links-link nav__link-hover">
+                  <a href="#">features</a>
+                  <span class="drop-down-button">
+                    <i class="fas fa-angle-down"></i>
+                  </span>
+
+                  <div class="nav__sub-menu">
+                    <div class="d-flex-bw drop-down-padding">
+                      <div class="col-12 col-lg-3">
+                        <h3 class="nav__sub-menu-title">
+                          header styles
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">transparent header</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">white header</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">dark header</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">header with top bar</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">header with sticky top bar</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">header with push</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">center navigation</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">center logo</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">top logo</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">one page navigation</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">hamburger menu</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">hamburger menu modern</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">hamburger menu half</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">left menu classic</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">left menu modern</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">center navigation</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          footer
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer standard</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer standard dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer classic </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer classic dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">
+                              footer clean
+                            </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer clean dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer modern</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer modern dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer center logo</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer center logo dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer strip</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer strip dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer center logo 02</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">footer center logo 02 dark</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""
+                              >footer clean modern <span class="nav__sub-menu-list-link-new">new </span></a
+                            >
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""
+                              >footer clean modern dark <span class="nav__sub-menu-list-link-new">new </span></a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          page title
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""> left alignment</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">right alignment</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">center alignment</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">dark style</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">big typography </a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">parallax image background</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">image after breadcrumbs</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">gallery background</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">background video</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">mini version</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-12 col-lg-3 padding-left">
+                        <h3 class="nav__sub-menu-title">
+                          gallery
+                        </h3>
+
+                        <ul class="nav__sub-menu-list">
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">single image lightbox</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">lightbox gallery</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">zoom gallery</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""
+                              >metro gallery <span class="nav__sub-menu-list-link-new">new </span></a
+                            >
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href=""
+                              >justified gallery <span class="nav__sub-menu-list-link-new">new </span></a
+                            >
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">popup with form</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">modal popup</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">open youtube video</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">open vimeo video</a>
+                          </li>
+
+                          <li class="nav__sub-menu-list-link">
+                            <a class="transform" href="">open google map</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="nav__burger-button nav__burger-button-lg">
+                <div class="burger-row-1"></div>
+                <div class="burger-row-2"></div>
+                <div class="burger-row-3"></div>
+              </div>
+
+              <div id="ex1" class="modal">
+                <form class="modal-form" action="">
+                  <div class="d-flex align-base">
+                    <input class="form-control-valid modal-form__input" type="text" placeholder="Enter Your Keyword" />
+                    <button class="modal-form__button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="nav__search">
+                <a href="#ex1" rel="modal:open" class="grey-hover"><i class="fas fa-search"></i></a>
+              </div>
+
+              <ul class="nav__social">
+                <div class="d-flex-bw align-center">
+                  <li class="nav__social-link grey-hover">
+                    <a href="">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>
+
+                  <li class="nav__social-link grey-hover">
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+
+                  <li class="nav__social-link grey-hover">
+                    <a href="">
+                      <i class="fab fa-dribbble"></i>
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-carousel">
+        <div class="carousel-cell">
+          <div class="header__content">
+            <h3>
+              we combine design, thinking and technical craft
+            </h3>
+
+            <h1>
+              creative thinker
+            </h1>
+
+            <div class="header__content-buttons">
+              <a href="" class="btn btn-white">about company</a>
+              <a href="" class="btn btn-white">purchase now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-cell">
+          <div class="header__content">
+            <h3>
+              we're a design studio that believe in the ideas
+            </h3>
+
+            <h1>
+              empower elevate
+            </h1>
+
+            <div class="header__content-buttons">
+              <a href="" class="btn btn-white">about company</a>
+              <a href="" class="btn btn-white">purchase now</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="header__content">
+            <h3>
+              we're a design studio that believe in the ideas
+            </h3>
+
+            <h1>
+              creative design
+            </h1>
+
+            <div class="header__content-buttons">
+              <a href="" class="btn btn-white">about company</a>
+              <a href="" class="btn btn-white">purchase now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__details">
+        <div class="container">
+          <div class="d-flex-bw block-padding">
+            <div class="col-12 col-lg-4">
+              <div class="header__details-item">
+                <div class="d-flex">
+                  <div class="header__details-item-icon">
+                    <i class="far fa-lightbulb"></i>
+                  </div>
+
+                  <div class="header__details-item-inner">
+                    <p class="item-inner-label">
+                      Digital Branding
+                    </p>
+
+                    <p class="item-inner-content">
+                      We can help you find the precise message to clearly speak to who you are as a company.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <div class="header__details-item">
+                <div class="d-flex">
+                  <div class="header__details-item-icon">
+                    <i class="fas fa-globe-europe"></i>
+                  </div>
+
+                  <div class="header__details-item-inner">
+                    <p class="item-inner-label">
+                      Web Interactive
+                    </p>
+
+                    <p class="item-inner-content">
+                      Our websites look great, but each page has a clearly defined conversion goal
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <div class="header__details-item">
+                <div class="d-flex">
+                  <div class="header__details-item-icon">
+                    <i class="fas fa-brush"></i>
+                  </div>
+
+                  <div class="header__details-item-inner">
+                    <p class="item-inner-label">
+                      Graphic Design
+                    </p>
+
+                    <p class="item-inner-content">
+                      We interlace our creative with solid marketing and branding principles. A strong brand.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="d-flex-bw overflow-x">
+          <div class="col-12 col-xl-6">
+            <div class="about__image-left"></div>
+          </div>
+
+          <div class="col-12 col-xl-3">
+            <div class="about__content">
+              <h2>
+                WE ARE DIGITAL MEDIA AGENCY.
+              </h2>
+
+              <p>
+                We are idea-driven, working with a strong focus on design and user experience. Our projects should
+                engage your audience, we want to create wonderful digital things that people love to be part of and use.
+                That's what your brand and audience deserve.
+              </p>
+
+              <a href="" class="btn btn-dark">meet our team</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-xl-3">
+            <div class="about__image-right"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product">
+        <div class="block-padding-mini">
+          <div class="product__control d-flex-center">
+            <input type="radio" name="product-control" id="product-control-1" value="0" />
+            <label for="product-control-1">All</label>
+
+            <input type="radio" name="product-control" id="product-control-2" value="1" />
+            <label for="product-control-2">web</label>
+
+            <input type="radio" name="product-control" id="product-control-3" value="2" />
+            <label for="product-control-3">advertising</label>
+
+            <input type="radio" name="product-control" id="product-control-4" value="3" />
+            <label for="product-control-4">branding</label>
+
+            <input type="radio" name="product-control" id="product-control-5" value="4" />
+            <label for="product-control-5">design</label>
+
+            <input type="radio" name="product-control" id="product-control-6" value="5" />
+            <label for="product-control-6">photography</label>
+          </div>
+        </div>
+
+        <div class="product__block">
+          <div class="product__grid product__grid-active">
+            <div class="d-flex" style="flex-wrap: wrap;">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item11.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      herbal beauty salon
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item12.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      tailoring interior
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item13.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      pixflow studio
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item14.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      design blast inc
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item15.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      harddot stone
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item16.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      edu camp school
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item17.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      branding and identity
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item18.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      violator series
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__grid">
+            <div class="d-flex" style="flex-wrap: wrap;">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item13.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      pixflow studio
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item12.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      tailoring interior
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item runTo">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item14.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      design blast inc
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item runTo">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item15.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      harddot stone
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item flipRoll">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item16.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      edu camp school
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item11.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      herbal beauty salon
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item18.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      violator series
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item17.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      branding and identity
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__grid">
+            <div class="d-flex" style="flex-wrap: wrap;">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item flipRoll">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item11.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      herbal beauty salon
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item flipRoll">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item12.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      tailoring interior
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item13.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      pixflow studio
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item17.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      branding and identity
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item18.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      violator series
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__grid">
+            <div class="d-flex" style="flex-wrap: wrap;">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item scaleTo">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item15.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      harddot stone
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item16.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      edu camp school
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item17.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      branding and identity
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item scaleTo">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item11.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      herbal beauty salon
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item runTo">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item14.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      design blast inc
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item18.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      violator series
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__grid">
+            <div class="d-flex" style="flex-wrap: wrap;">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item18.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      violator series
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item13.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      pixflow studio
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item14.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      design blast inc
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item12.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      tailoring interior
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item17.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      branding and identity
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__grid">
+            <div class="d-flex" style="flex-wrap: wrap;">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item17.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      branding and identity
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item flipRoll">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item11.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      herbal beauty salon
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and identity
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item scaleTo">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item12.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      tailoring interior
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      branding and brochure
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product__grid-item fadeInUp">
+                  <img class="full-percent" src="./resource/lib/portfolio/portfolio-item18.jpg" alt="" />
+
+                  <a href="" class="product__grid-item-link text-upper">
+                    <span class="product__item-link-label">
+                      violator series
+                    </span>
+
+                    <span class="product__item-link-desc">
+                      web and photography
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="report">
+        <div class="container">
+          <div class="block-padding d-flex-bw">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="report__item">
+                <div class="report__item-icon">
+                  <i class="far fa-smile"></i>
+                </div>
+
+                <div class="report__item-inner">
+                  <p class="report__item-inner-number">
+                    650
+                  </p>
+
+                  <p class="report__item-inner-desc">
+                    happy clients
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="report__item">
+                <div class="report__item-icon">
+                  <i class="far fa-copy"></i>
+                </div>
+
+                <div class="report__item-inner">
+                  <p class="report__item-inner-number">
+                    987
+                  </p>
+
+                  <p class="report__item-inner-desc">
+                    work completed
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="report__item">
+                <div class="report__item-icon">
+                  <i class="fas fa-globe"></i>
+                </div>
+
+                <div class="report__item-inner">
+                  <p class="report__item-inner-number">
+                    350
+                  </p>
+
+                  <p class="report__item-inner-desc">
+                    award winning
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="report__item">
+                <div class="report__item-icon">
+                  <i class="far fa-comments"></i>
+                </div>
+
+                <div class="report__item-inner">
+                  <p class="report__item-inner-number">
+                    850
+                  </p>
+
+                  <p class="report__item-inner-desc">
+                    telephonic talk
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="d-flex-bw">
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="news__item">
+              <img src="./resource/lib/homepage-3-parallax-img1.jpg" alt="" class="fill" />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="news__content">
+              <h3>
+                Unlimited power and customization possibilities.
+              </h3>
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever
+                since.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="news__item">
+              <img src="./resource/lib/homepage-3-parallax-img3.jpg" alt="" class="fill" />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="news__content">
+              <h3>We craft beautiful and unique digital experiences.</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever
+                since.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="news__item">
+              <img class="fill" src="./resource/lib/homepage-3-slider-img-1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="news__content">
+              <h3>Pixel perfect design & clear code delivered to you.</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since. Lorem Ipsum has been the industry's standard dummy text ever
+                since.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="progress">
+        <div class="container">
+          <div class="block-padding d-flex-bw">
+            <div class="col-12 col-md-4">
+              <div class="progress__item">
+                <div class="progress__item-icon">
+                  01
+                </div>
+
+                <div class="progress__item-inner">
+                  <h4>Discussion of the Idea</h4>
+                  <p>
+                    Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard
+                    dummy.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="progress__item">
+                <div class="progress__item-icon">
+                  02
+                </div>
+
+                <div class="progress__item-inner">
+                  <h4>Handcrafted Templates</h4>
+                  <p>
+                    Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard
+                    dummy.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="progress__item">
+                <div class="progress__item-icon">
+                  03
+                </div>
+
+                <div class="progress__item-inner">
+                  <h4>Testing for Perfection</h4>
+                  <p>
+                    Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard
+                    dummy.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="user-commend">
+        <div class="block-padding">
+          <div class="main-carousel">
+            <div class="carousel-cell">
+              <div class="d-flex align-start" style="margin: 0 auto; width: 40%; height: 100%;">
+                <div class="user-commend__ava">
+                  <img src="./resource/lib/avatar/avtar-07.jpg" alt="" class="full-percent" />
+                </div>
+
+                <div class="user-commend__inner">
+                  <p class="user-commend__inner-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  </p>
+
+                  <p class="user-commend__inner-author">hugh macleod</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="d-flex align-start" style="margin: 0 auto; width: 40%; height: 100%;">
+                <div class="user-commend__ava">
+                  <img src="./resource/lib/avatar/avtar-08.jpg" alt="" class="full-percent" />
+                </div>
+
+                <div class="user-commend__inner">
+                  <p class="user-commend__inner-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  </p>
+
+                  <p class="user-commend__inner-author">jay benjamin</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="d-flex align-start" style="margin: 0 auto; width: 40%; height: 100%;">
+                <div class="user-commend__ava">
+                  <img src="./resource/lib/avatar/avtar-09.jpg" alt="" class="full-percent" />
+                </div>
+
+                <div class="user-commend__inner">
+                  <p class="user-commend__inner-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  </p>
+
+                  <p class="user-commend__inner-author">herman miller</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="block-padding">
+          <h2 class="blog__title">fresh news</h2>
+
+          <div class="container">
+            <div class="d-flex-bw">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="blog__item">
+                  <p class="blog__item-date">
+                    25 MARCH 2017
+                  </p>
+
+                  <h4 class="blog__item-label">
+                    <a href="" class="primary-link">
+                      You don't think your way to creative work.
+                    </a>
+                  </h4>
+
+                  <p class="blog__item-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+                  </p>
+
+                  <div class="blog__item-author">
+                    <div class="d-flex align-center">
+                      <img src="./resource/lib/avatar/avtar-01.jpg" alt="" />
+
+                      <span> by <a href="" class="primary-link blog__item-author-link">jay benjamin</a> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="blog__item">
+                  <p class="blog__item-date">
+                    20 MARCH 2017
+                  </p>
+
+                  <h4 class="blog__item-label">
+                    <a href="" class="primary-link">
+                      Good design is a language, not a style.
+                    </a>
+                  </h4>
+
+                  <p class="blog__item-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+                  </p>
+
+                  <div class="blog__item-author">
+                    <div class="d-flex align-center">
+                      <img src="./resource/lib/avatar/avtar-01.jpg" alt="" />
+
+                      <span> by <a href="" class="primary-link blog__item-author-link">HERMAN MILLER</a> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="blog__item">
+                  <p class="blog__item-date">
+                    15 MARCH 2017
+                  </p>
+
+                  <h4 class="blog__item-label">
+                    <a href="" class="primary-link">
+                      There is no such thing as a boring project.
+                    </a>
+                  </h4>
+
+                  <p class="blog__item-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+                  </p>
+
+                  <div class="blog__item-author">
+                    <div class="d-flex align-center">
+                      <img src="./resource/lib/avatar/avtar-01.jpg" alt="" />
+
+                      <span> by <a href="" class="primary-link blog__item-author-link">HUGH MACLEOD</a> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="blog__item">
+                  <p class="blog__item-date">
+                    10 MARCH 2017
+                  </p>
+
+                  <h4 class="blog__item-label">
+                    <a href="" class="primary-link">
+                      Design creates culture. Culture shapes values.
+                    </a>
+                  </h4>
+
+                  <p class="blog__item-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+                  </p>
+
+                  <div class="blog__item-author">
+                    <div class="d-flex align-center">
+                      <img src="./resource/lib/avatar/avtar-01.jpg" alt="" />
+
+                      <span> by <a href="" class="primary-link blog__item-author-link">jay benjamin</a> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand">
+        <div class="container">
+          <div class="main-carousel">
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-2.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-3.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-4.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-5.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-6.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-7.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-cell">
+              <div class="brand__logo">
+                <img src="./resource/lib/logo/logo-8.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="start-a-project">
+        <div class="block-padding">
+          <div class="d-flex-center align-base">
+            <h4 class="start-a-project__content">
+              We'd love to hear about your project
+            </h4>
+
+            <a href="" class="btn btn-white-background">Start a project</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="block-padding">
+          <div class="d-flex-bw">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer__logo footer__item">
+                <a href="">
+                  <img src="./resource/lib/logo/logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer__item footer__contact">
+                <h5 class="footer__label text-upper">
+                  contact information
+                </h5>
+
+                <p>301 The Greenhouse, Custard</p>
+                <p>Factory, London, E2 8DY.</p>
+                <p>Email: sales@domain.com</p>
+                <p>Phone: +44 (0) 123 456 7890</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer__item footer__links">
+                <h5 class="footer__label">
+                  on social networks
+                </h5>
+                <div class="d-flex">
+                  <ul class="footer__links-list">
+                    <li>
+                      <a href="">Facebook</a>
+                    </li>
+
+                    <li>
+                      <a href="">Twitter</a>
+                    </li>
+
+                    <li>
+                      <a href="">Dribble</a>
+                    </li>
+
+                    <li>
+                      <a href="">Instagram</a>
+                    </li>
+
+                    <li>
+                      <a href="">Pinterest</a>
+                    </li>
+
+                    <li>
+                      <a href="">Linkedin</a>
+                    </li>
+
+                    <li>
+                      <a href="">Youtube</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer__item footer__form">
+                <h5 class="footer__label">
+                  subscribe newsletter
+                </h5>
+
+                <input type="text" class="form-control full-percent" placeholder="Enter your email" />
+
+                <a href="" class="btn btn-dark">subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="btn-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Script -->
+
+    <script src="./vendor/script/flickity.pkgd.min.js"></script>
+    <script src="./vendor/script/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="./resource/script/app.js"></script>
+    <script src="./resource/script/jquery.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.fadeInUp {
+  animation-delay: 0.4s;
+  animation: fadeInUp 1s;
+}
+
+.runTo {
+  animation-delay: 0.4s;
+  animation: runTo 1s;
+}
+
+.flipRoll {
+  animation-delay: 0.4s;
+  animation: flipRoll 1s;
+}
+
+.scaleTo {
+  animation-delay: 0.4s;
+  animation-name: scaleTo;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 200%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes runTo {
+  0% {
+    opacity: 0;
+    transform: translate3d(-300%, 200%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes flipRoll {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 200%, 0) rotateY(720deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotateY(0);
+  }
+}
+
+@keyframes scaleTo {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 200%, 0) scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}

@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2.4rem;
+  font-family: $roboto-font;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  background-color: #dddbdbd2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(165, 165, 165);
+  border-radius: 10px;
+}
+
+.block-padding {
+  padding-top: 13rem;
+  padding-bottom: 13rem;
+
+  @include screen("tablet") {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  @include screen("mobile") {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.block-padding-mini {
+  padding-top: 6em;
+  padding-bottom: 6rem;
+
+  @include screen("tablet") {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @include screen("mobile") {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.drop-down-padding {
+  padding: 4.5rem 5rem;
+
+  @media (max-width: 992px) {
+    padding: 2rem;
+  }
+}
+
+.transform {
+  &:hover {
+    transition: transform 0.5s;
+    transform: translateX(1rem);
+    color: #fff;
+
+    @media (max-width: 992px) {
+      transform: translateX(0);
+    }
+  }
+}
+
+.padding-left {
+  padding-left: 5rem;
+  border-left: 1px solid rgb(43, 48, 53);
+
+  @media (max-width: 992px) {
+    padding-left: 0;
+    border-left: transparent;
+  }
+}
+
+.margin-bot {
+  margin-bottom: 2rem;
+}
+
+.grey-hover {
+  cursor: pointer;
+  &:hover {
+    color: $text-color;
+  }
+}
+
+.hide-mobile {
+  @media (max-width: 992px) {
+    display: none;
+  }
+}
+
+.check-show {
+}
+
+.primary-link {
+  &:hover {
+    color: $sub-color;
+  }
+}
