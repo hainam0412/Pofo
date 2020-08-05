@@ -100,3 +100,8 @@ function scrollTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+let imagesLib = document.querySelectorAll(".product__grid-item img");
+
+for (image of imagesLib) {
+  image.classList.add("lazyload");
+}
